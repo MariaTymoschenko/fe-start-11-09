@@ -1,0 +1,18 @@
+body{
+    font-family: "Inter Tight", sans-serif;
+}
+h1{
+    font-size:40px ;
+    text-align: center;
+}
+h3{font-size: 32px;}
+p{font-size: 16px;}
+.mercury, .mars, .saturn, .uranus, .neptune{
+    text-align: left;
+}
+.venus, .uranus, .uranus h3{
+    text-align: right;
+}
+.jupiter, .saturn, .earth{
+    text-align: center;
+}
