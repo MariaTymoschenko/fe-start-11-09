@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: white;
+}
+
+.header-container {
+    max-width: 940px;
+    margin: 0 auto;
+    font-size: 0;
+    padding-top: 65px;
+    padding-bottom: 59px;
+}
+
+.logo,
+.socialmedia {
+    display: inline-block;
+    width: 470px;
+}
+
+.socialmedia {
+    text-align: right;
+    text-decoration: none;
+
+}
+
+.socialmedia a {
+    display: inline-block;
+    margin-left: 21px;
+}
+
+.text-container {
+    max-width: 810px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.firstsection {
+    padding-top: 102px;
+    padding-bottom: 265px;
+    background: rgb(250, 201, 96);
+}
+
+.firstsection h1 {
+    color: rgb(138, 109, 47);
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 54px;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.firstsection input {
+    display: inline-block;
+
+}
+
+.input-email,
+.input-submit {
+    border: none;
+    font-size: 30px;
+}
+
+
+.input-email {
+    padding: 0 36px;
+    width: 560px;
+    height: 54px;
+    border-radius: 2px 0px 0px 2px;
+    background: rgb(255, 255, 255);
+}
+
+.input-submit {
+    width: 240px;
+    height: 54px;
+    border-radius: 0px 2px 2px 0px;
+    background: rgb(168, 134, 61);
+    text-align: center;
+    color: white;
+}
+
+.firstsection {
+    padding-top: 77px;
+    padding-bottom: 81px;
+
+}
+
+.secondsection {
+    padding-top: 77px;
+    padding-bottom: 81px;
+    background: rgb(242, 242, 242);
+}
+
+.space-image {
+    padding-top: 26px;
+}
+
+.thirdsection {
+    padding-top: 88px;
+    padding-bottom: 22px;
+}
+
+.fourthsection {
+    padding-top: 54px;
+    padding-bottom: 107px;
+    background: rgb(250, 201, 96);
+    border-bottom: 3px solid rgb(242, 242, 242);
+    ;
+}
+
+.title-element {
+    color: rgba(0, 0, 0, 0.56);
+    font-size: 37px;
+    font-weight: 400;
+    line-height: 36px;
+
+}
+
+.text-content {
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+
+}
+
+.footer {
+    padding: 81px 0;
+    background: rgb(242, 242, 242);
+}
+
+.logobottom {
+    padding-top: 81px;
+    text-align: center;
+}
+
+.socialmedia-bottom {
+    text-align: center;
+    padding-top: 24px;
+}
+
+.socialmedia-bottom a {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 22px;
+    margin-bottom: 81px;
+}
+
+.socialmedia-bottom a:last-child {
+    margin-right: 0;
+}
+
+.button {
+    color: rgb(153, 153, 153);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid rgb(117, 134, 150);
+    border-radius: 3px;
+    background: rgb(255, 255, 255);
+    padding: 0 23px;
+}
+
+.email-block-center {
+    text-align: center;
+}
