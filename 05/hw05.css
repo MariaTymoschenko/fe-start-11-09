@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: rgb(247, 250, 252);
+}
+
+.header {
+    text-align: center;
+    margin-top: 82px;
+    padding: 5px;
+    color: rgb(45, 55, 72);
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.plan {
+    color: rgb(45, 55, 72);
+    margin-bottom: 56px;
+    font-weight: 700;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+.details {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    display: block;
+    padding-left: 169px;
+    padding-bottom: 39px;
+
+}
+
+.choice {
+    margin: 0 auto;
+    max-width: 1116px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+
+    border-top: 1px solid rgb(203, 213, 224);
+
+}
+
+h2 {
+    margin-top: 61px;
+    padding-left: 25px;
+    color: rgb(45, 55, 72);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+p {
+    color: rgb(74, 85, 104);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 37px;
+    padding-left: 25px;
+
+}
+
+.hobby {
+    width: 350px;
+    height: 445px;
+    box-shadow: 0px 4px 4px 0px rgba(152, 149, 149, 0.25);
+    background: rgb(255, 255, 255);
+    margin-top: 96.5px;
+
+}
+
+.professional {
+    width: 350px;
+    height: 450px;
+    box-shadow: 0px 4px 4px 0px rgba(152, 149, 149, 0.25);
+    background: rgb(255, 255, 255);
+    margin-top: 55.5px;
+
+}
+
+.business {
+    width: 350px;
+    height: 445px;
+    box-shadow: 0px 4px 4px 0px rgba(152, 149, 149, 0.25);
+    background: rgb(255, 255, 255);
+    margin-top: 96.5px;
+
+}
+
+footer {
+    width: 350px;
+    left: 0;
+    top: 484px;
+    background: rgb(237, 242, 247);
+    height: 70px;
+    text-align: center;
+    color: rgb(45, 55, 72);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    padding-top: 25px;
+}
+
+.middle-footer {
+    background: rgb(234, 7, 116);
+    color: rgb(247, 250, 252);
+    text-align: center;
+    width: 350px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    padding-top: 25px;
+
+}
+
+.short {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 35px;
+}
