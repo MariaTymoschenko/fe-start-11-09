@@ -97,6 +97,7 @@ h2 {
   column-gap: 12px;
   width: 316px;
   min-height: 88px;
+  padding-left: 8px;
 }
 
 .bigmac,
@@ -114,18 +115,8 @@ h2 {
   margin-bottom: 12px;
   display: flex;
   flex-direction: row;
-}
-
-.bigmac {
-  padding-left: 16px;
-}
-
-.kfcdouble {
-  padding-left: 16.21px;
-}
-
-.fishburger {
-  padding-left: 8px;
+  align-items: center;
+  padding: 8px;
 }
 
 .rs {
@@ -136,25 +127,15 @@ h2 {
   text-align: left;
 
 }
-
-.burger-desc {
-  padding-top: 22px;
-}
-
 .bigmac-img {
   width: 60px;
-  height: 68.51px;
-  left: 40px;
-  top: 427px;
-  padding-top: 6px;
   padding-right: 12px;
+  padding-left: 8px;
 }
 
 .kfcdouble-img {
   width: 60.77px;
   height: 68px;
-  left: 40.21px;
-  top: 537px;
   padding-top: 16px;
   padding-right: 12.15px;
 
@@ -163,8 +144,6 @@ h2 {
 .fishburger-img {
   width: 70px;
   height: 68px;
-  left: 38px;
-  top: 639px;
   padding-top: 18px;
   padding-right: 6.14px;
 
