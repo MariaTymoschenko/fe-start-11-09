@@ -1,57 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="hw06.css">
 </head>
+
 <body>
-    <header>
-<img src="imgs/netflix-logo-png-2562 1.png" alt=""> Friday July 8th 
-<i class="fa-solid fa-magnifying-glass"></i>
-<img src="imgs/profile pic.png" alt="">
+    <header class="top-header">
+        <div class="top-logo-bar">
+            <img class="netflix-logo" src="imgs/netflix-logo-png-2562 1.png" alt=""> <span class="border"> </span>
+            <span class="date"> Friday July 8th </span>
+        </div>
+        <div class="right-top-menu">
+            <i class="fa-solid fa-magnifying-glass fa-2xl" style="color: rgb(255, 255, 255);"></i>
+
+            <img class="profile" src="imgs/profile pic.png" alt="">
+        </div>
     </header>
-    <h3>
-Drama | Thriller | Supernatural
-    </h3>
-    <h1>
-Stranger Things
-    </h1>
-    <div class="decription">
-<p>
+    <main>
+        <h2>
+            Drama <span class="border"> Thriller </span> <span class="border"> Supernatural </span>
+        </h2>
+        <h1>
+            Stranger Things
+        </h1>
+        <div class="desc-flex">
+            <div> 2019</div>
+            <div> <b class="white-text"> DIRECTOR: </b><b class="gray-text"> Shawn Levy</b> </div>
+            <div> <b class="white-text"> seasons: </b> <b class="gray-text"> 3 (5 Episodes) </b> </div>
+        </div>
+        <div class="decription">
+            <p>
+                In 1980s Indiana, a group of young friends witness supernatural forces and secret government exploits.
+                As they search for answers, the children unravel a series of extraordinary mysteries.
+            </p>
+        </div>
+        <div class="rating">
+            <i class="fa-solid fa-star fa-xl"></i>
+            <i class="fa-solid fa-star fa-xl"></i>
+            <i class="fa-solid fa-star fa-xl"></i>
+            <i class="fa-regular fa-star fa-xl" style="color:rgb(255, 255, 255);"></i>
+            <i class="fa-regular fa-star fa-xl" style="color:rgb(255, 255, 255);"> </i>
+        </div>
+        <section class="buttons">
 
-</p>
-    </div>
-    <div class="rating">
+            <button class="stream">
+                STREAM NOW <i class="fa-solid fa-circle-play"></i></button>
 
-    </div>
-    <section class="buttons">
-    <div class="stream">
+            <button class="episodes" value="ALL EPISODES"> ALL EPISODES </button>
 
-    </div>
-    <div class="episodes">
+        </section>
+        <div class="slider">
+            <h2>
+                POPULAR THIS WEEK
+            </h2>
+            <div class="navigation">
+                <i class="fa-solid fa-circle-chevron-left fa-2xl" style="color: rgb(167, 166, 166)"></i>
+                <i class="fa-solid fa-circle-chevron-right fa-2xl" style="color: rgb(255, 255, 255);"></i>
+            </div>
+        </div>
+        <div class="age-category">
+            16+
+        </div>
 
-    </div>
-</section>
-<h3>
-    POPULAR THIS WEEK
-</h3>
-    
-    <div class="slider">
         <div class="slider-item">
-        <img src="imgs/br bad.png" alt="">
-    </div>
-    <div class="slider-item">
-        <img src="imgs/rain.png" alt="">
-    </div>
-    </div>
-    <footer>
-
-    </footer>
+            <img src="imgs/br bad.png" alt="">
+            <img src="imgs/rain.png" alt="">
+            <img src="imgs/life in a year.png" alt="">
+            <img src="imgs/money heist.png" alt="">
+            <img src="imgs/squid game.png" alt="">
+        </div>
+    </main>
 </body>
+
 </html>
