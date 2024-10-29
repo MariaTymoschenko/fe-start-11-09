@@ -29,7 +29,7 @@ header {
 .netflix-logo {
   padding-right: 56px;
 }
-.border::before {
+.border::after {
   content: '';
   display: inline-block;
   height: 28px;
@@ -195,6 +195,7 @@ main {
   width: 96%;
 }
 
+
 .slider {
   width: 57%;
   display: flex;
@@ -210,7 +211,6 @@ main {
 
 .slider-item {
   width: 57%;
-  height: 210px;
   display: flex;
   flex-direction: row;
   gap: 50px;
@@ -222,13 +222,19 @@ main {
 .slider-item img {
   border: 1px solid var(--main-color);
   width: 17%;
-  height: 210px;
 }
 
 :root {
   --main-color: rgb(255, 255, 255);
   --secondary-color: rgb(167, 166, 166);
   --font-family: "Inter", sans-serif;
+}
+button{
+  background-color: transparent;
+  border-radius: 50%;
+  padding: 0;
+  height: 40px;
+  width: 40px;
 }
 
 @media screen and (max-width:900px) {
@@ -254,7 +260,7 @@ main {
     bottom: 470px;
   }
 
-  .border::before {
+  .border::after {
     content: '';
     border: none;
 
