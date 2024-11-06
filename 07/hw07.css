@@ -1,0 +1,167 @@
+main {
+    background-color: #F9F9F9;
+    padding-bottom: 56px;
+}
+
+.container:nth-child(4) {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.container:nth-child(5) {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.container:nth-child(6) {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.nav-link {
+    color: rgb(0, 0, 0);
+    font-size: 17.16px;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+.help-center-btn {
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 27px;
+    background: rgb(117, 191, 122);
+    border-radius: 5.95px;
+    padding: 5px 15px;
+    width: 182px;
+    height: 50px;
+}
+
+.app-heading {
+    font-size: 60.73px;
+    font-weight: 800;
+    line-height: 65.91px;
+    text-align: left;
+}
+
+.app-description {
+    color: rgb(158, 157, 162);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+}
+.btn-dark{
+    width: 260px;
+    height: 66.77px;  
+font-size: 24.6px;
+font-weight: 800;
+line-height: 0px;
+letter-spacing: 0%;
+}
+footer .btn-dark{
+    width: 178.51px;
+    height: 45.84px; 
+font-size: 16.89px;
+font-weight: 800;
+line-height: 0px;
+letter-spacing: 0%;
+}
+
+.download-text {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.input-phone {
+    color: rgb(218, 218, 218);
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    background-color: white;
+    width: 100%;
+    max-width: 300px;
+    height: 67px;
+}
+
+.apply-button {
+    border-radius: 4.39px;
+    padding: 10px 20px;
+    width: 260px;
+    height: 67px;
+    font-size: 22px;
+    font-weight: 800;
+
+}
+
+.benefits {
+    text-align: center;
+}
+
+.green-text {
+    color: rgb(117, 191, 122);
+font-size: 46.39px;
+font-weight: 800;
+line-height: 50.35px;
+letter-spacing: 0%;
+}
+.black-text{
+font-size: 46.39px;
+font-weight: 800;
+line-height: 50.35px;
+letter-spacing: 0%;
+}
+
+.number-text {
+    color: rgb(117, 191, 122);
+    font-size: 88px;
+    font-weight: 500;
+    line-height: 118.8px;
+    letter-spacing: 0;
+}
+
+.heading-text {
+    color: rgb(0, 0, 0);
+    font-size: 33.94px;
+    font-weight: 600;
+    line-height: 32.5px;
+    letter-spacing: 0;
+}
+
+.paragraph-text {
+    color: rgb(158, 157, 162);
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0;
+}
+
+.footer-title {
+    color: rgb(39, 32, 66);
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 27px;
+}
+
+.footer-text {
+    color: rgb(139, 139, 165);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.border {
+    border: 1px solid rgb(236, 236, 236);
+    margin-bottom: 38px;
+}
+
+.footer-paragraph {
+    color: rgb(117, 191, 122);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 51px;
+}
