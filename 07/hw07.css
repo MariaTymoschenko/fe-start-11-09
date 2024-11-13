@@ -2,23 +2,12 @@ main {
     background-color: #F9F9F9;
     padding-bottom: 56px;
 }
-
-.container:nth-child(4) {
+.containers{
     background-color: white;
     border-radius: 10px;
 }
 
-.container:nth-child(5) {
-    background-color: white;
-    border-radius: 10px;
-}
-
-.container:nth-child(6) {
-    background-color: white;
-    border-radius: 10px;
-}
-
-.nav-link {
+.nav-item {
     color: rgb(0, 0, 0);
     font-size: 17.16px;
     font-weight: 500;
@@ -53,10 +42,8 @@ main {
 }
 .btn-dark{
     width: 260px;
-    height: 66.77px;  
 font-size: 24.6px;
 font-weight: 800;
-line-height: 0px;
 letter-spacing: 0%;
 }
 footer .btn-dark{
